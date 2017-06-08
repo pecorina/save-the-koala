@@ -1,4 +1,27 @@
+
 /*
 wood brown: A89F68;
 army green: 41521F;
 */
+a{
+	padding: 0.8em;
+}
+ul{
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-between;
+}
+a{
+	margin-top: 20px;
+	color: black;
+	text-decoration: none;
+	font-family:'Prompt', sans-serif; 
+}
+a:hover{
+	background-size: 30px;
+	background-color: #d1c8ca;
+}
+.portada{
+	top:0;
+	width: 100%;
+}
