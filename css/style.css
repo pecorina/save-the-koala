@@ -3,23 +3,61 @@
 wood brown: A89F68;
 army green: 41521F;
 */
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 a{
 	padding: 0.8em;
 }
+header{
+	background: url(../img/portada.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.container{
+	margin-left: 15px;
+    color: white;
+    padding-top: 5em;
+    width: 300px;
+}
+.container p{
+	text-align: left;
+}
+.barra{
+	margin-top: 0;
+}
+
 ul{
+	background: transparent;
 	display: flex;
 	flex-direction: row; 
 	justify-content: space-between;
 }
+h3 {
+	color: white;
+    margin: 31px;
+    text-shadow: 5px 5px 5px #aaa;
+}
+
 a{
 	margin-top: 20px;
 	color: black;
 	text-decoration: none;
-	font-family:'Prompt', sans-serif; 
 }
 a:hover{
 	background-size: 30px;
-	background-color: #d1c8ca;
+	color: white;
+}
+button{
+	border-radius: 10px;
+	background-color: #63e663;
+	margin: 15px;
+    padding: 5px;
+    cursor: pointer;
 }
 .portada{
 	top:0;
