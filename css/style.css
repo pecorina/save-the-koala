@@ -22,22 +22,19 @@ header{
 	margin-left: 15px;
     color: white;
     padding-top: 5em;
-    width: 300px;
+    display: flex;
+    justify-content: flex-start;
 }
 .container p{
 	text-align: left;
 }
-.barra{
-	margin-top: 0;
-}
-
 ul{
 	background: transparent;
 	display: flex;
 	flex-direction: row; 
 	justify-content: space-between;
 }
-h3 {
+.barra ul h3 {
 	color: white;
     margin: 31px;
     text-shadow: 5px 5px 5px #aaa;
@@ -51,15 +48,39 @@ a{
 a:hover{
 	background-size: 30px;
 	color: white;
+	text-decoration: none;
 }
 button{
 	border-radius: 10px;
 	background-color: #63e663;
 	margin: 15px;
-    padding: 5px;
+    padding: 10px;
     cursor: pointer;
+    font-family: 'Raleway', sans-serif;
 }
-.portada{
+.portada {
 	top:0;
 	width: 100%;
 }
+
+h3{
+	color: #A89F68;
+	font-weight: bold;
+
+}
+.parrafo1 .col1 {
+	font-weight: bold;
+    color: black;
+	padding-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+.contenedor2{
+	margin-top: 20px;
+}
+.segunda .contenedor2 .row img{
+	display: flex;
+	align-self: flex-end;
+	margin-left: 10px;	
+}
+
