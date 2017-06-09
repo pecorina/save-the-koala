@@ -17,11 +17,12 @@ header{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	width: 100%;
 }
 .container{
 	margin-left: 15px;
     color: white;
-    padding-top: 5em;
+    padding-top: 2em;
     display: flex;
     justify-content: flex-start;
 }
@@ -52,7 +53,8 @@ a:hover{
 }
 button{
 	border-radius: 10px;
-	background-color: #63e663;
+	color: white;
+	background-color: #41521F;
 	margin: 15px;
     padding: 10px;
     cursor: pointer;
@@ -64,11 +66,10 @@ button{
 }
 
 h3{
-	color: #A89F68;
+	color: #41521F;
 	font-weight: bold;
-
 }
-.parrafo1 .col1 {
+.parrafo1 .col1 p h3{
 	font-weight: bold;
     color: black;
 	padding-top: 40px;
@@ -83,4 +84,38 @@ h3{
 	align-self: flex-end;
 	margin-left: 10px;	
 }
-
+.contenedor3{
+	background-color:  #A89F68;
+	padding: 40px;
+	font-weight: bold;
+	width: 100%;
+}
+.contenedor3 p{
+	color: white;
+}
+.cosita{
+	height: 200px;
+    border: 7px 0;
+	border: 10px;
+	border-color: white;
+}
+.all{
+	height: 100vh;
+	width: 100%;
+}
+.nuve{
+	padding: 0.8em;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	color: white;
+}
+.cuarta{
+	background: url(../img/all.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
