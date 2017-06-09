@@ -69,10 +69,9 @@ h3{
 	color: #41521F;
 	font-weight: bold;
 }
-.parrafo1 .col1 p h3{
+.segunda p h3{
 	font-weight: bold;
     color: black;
-	padding-top: 40px;
 	display: flex;
 	justify-content: center;
 }
@@ -83,6 +82,7 @@ h3{
 	display: flex;
 	align-self: flex-end;
 	margin-left: 10px;	
+	
 }
 .contenedor3{
 	background-color:  #A89F68;
@@ -94,9 +94,8 @@ h3{
 	color: white;
 }
 .cosita{
-	height: 200px;
+	height: 100px;
     border: 7px 0;
-	border: 10px;
 	border-color: white;
 }
 .all{
@@ -104,11 +103,11 @@ h3{
 	width: 100%;
 }
 .nuve{
-	padding: 0.8em;
+	
 	background-color: transparent;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	padding-right: 10px;
 	color: white;
 }
 .cuarta{
@@ -118,4 +117,28 @@ h3{
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 100%;
+}
+.quinto{
+	margin: 5%;
+}
+.titul{
+	margin-top: 2%;
+	color: #082461;
+
+}
+.footer{
+	background-color: #41521F;
+	padding:50px;
+}
+.green{
+	color: #A89F68;
+}
+p{
+	color: #A89F68;
+}
+.white{
+    color: white;	
+}
+#mouse{
+	cursor: pointer;
 }
